@@ -1,0 +1,138 @@
+/* Estilos para el cuerpo del texto */
+body {
+    background-color: #eee;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4e9937;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#titulo {
+    margin: 0 0 25px 0;
+    font-size: 2em;
+    letter-spacing: .2rem;
+    text-shadow: 8px 8px 2px rgb(14, 68, 16);
+}
+
+/* Estilos para la barra de navegación */
+#menuPrincipal {
+    background-color: #64c76c;
+    padding: 5px 0;
+    border-radius: 8px;
+}
+
+#menuPrincipal ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menuPrincipal ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Estilos para los enlaces */
+.enlaceMenuPrincipal {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.enlaceMenuPrincipal:hover {
+    background-color: #fff;
+    color: #4e9937;
+}
+
+/* Estilos para la sección principal */
+.tituloSeccion {
+    background-color: #4e9937;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+article {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #4e9937;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#enlaces-legales {
+    margin-top: 30px;
+}
+
+#enlaces-legales a {
+    color: white;
+    text-decoration: none;
+}
+
+#enlaces-legales a:hover {
+    color: rgb(125, 232, 140);
+}
+  
+#enlaces-legales li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+/*Estilos del cuerpo*/
+
+.contenedorCentrado {
+    text-align: center;
+}
+.contenedorCentrado img{
+    border-width: 10px;
+    border-style: dotted;
+    border-color: rgb(125, 232, 140);
+}
+
+#listadoObjetivos li {
+    margin-bottom: 15px;
+}
+
+#contenedorFormulario {
+    padding:10px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url("../img/hoja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: rgb(125, 232, 140);
+}
+
+.cuadroTexto {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contenedorTexto{
+    padding:10px;
+    background-color: #c7ebbc;
+    border-radius: 8px;
+}
